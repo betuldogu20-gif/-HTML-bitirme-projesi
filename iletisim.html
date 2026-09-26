@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim | Frontend Dünyasına Giriş</title>
+    <meta name="description" content="Frontend Dünyasına Giriş sitesi ile iletişim kurmak için iletişim formunu kullanabilirsiniz.">
+    <meta property="og:title" content="İletişim">
+    <meta property="og:description" content="Frontend Dünyasına Giriş sitesi iletişim sayfası.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+</head>
+<body>
+    
+    <header>
+        <h1>İletişim</h1>
+        <nav aria-label="Ana menü">
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="makale.html">Makale</a></li>
+                <li><a href="tablo.html">Teknolojiler</a></li>
+                <li><a href="iletisim.html" aria-current="page">İletişim</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main id="icerik">
+        <section>
+            <h2>Bize Ulaşın</h2>
+            <p>Görüşlerinizi veya sorularınızı aşağıdaki formu kullanarak iletebilirsiniz.</p>
+            <form action="#" method="post">
+            <fieldset>
+                <legend>Kişisel bilgiler</legend>
+                <p><label for="ad">Adınız:</label>
+                <input type="text" id="ad" name="ad" required></p>
+                <p>
+                    <label for="email">E-posta adresiniz:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Mesaj Bilgileri</legend>
+                <p>
+                    <label for="konu">Konu</label>
+                    <input type="text" id="konu" name="konu" required>
+                </p>
+                <p>
+                    <label for="mesaj">Mesajınız:</label>
+                    <textarea name="mesaj" id="mesaj" rows="6" cols="40" required></textarea>
+                </p>
+            </fieldset>
+            <p><button type="submit">Mesaj Gönder</button></p>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2026 Frontend Dünyasına Giriş</p>
+    </footer>
+</body>
+</html>
